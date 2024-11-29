@@ -164,9 +164,13 @@ main {
 footer {
    background-color: #1a1a1a;
    padding: 20px;
-   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
    color: white;
 }
+
 
 footer h6, footer .footer-links h5 {
    margin: 10px 0;
